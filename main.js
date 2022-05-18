@@ -8,6 +8,20 @@ setInterval(function(){
 
 },5000);
 
+function hideMenu(){
+      
+    if (document.getElementById("navmain").style.display=="block"){
+       document.getElementById("navmain").style.display="none";
+       
+           }
+    else {
+       document.getElementById("navmain").style.display="block";
+       
+    }
+    
+}
+
+
 /*
 const h=document.querySelector('.h');
 const n=document.querySelector('.n');
