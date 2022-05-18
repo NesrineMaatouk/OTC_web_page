@@ -8,5 +8,12 @@ setInterval(function(){
 
 },5000);
 
-
+/*
+const h=document.querySelector('.h');
+const n=document.querySelector('.n');
+h.addEventListener('click',()=>{
+    h.classList.toggle("active");
+    n.classList.toggle("active");
+})
+*/
 
