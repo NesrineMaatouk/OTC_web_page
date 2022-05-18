@@ -494,6 +494,52 @@ main#carousel {
     --offset: 5;
     background-color: #eaff7000;
   }
+/****************/
+  .wrapper1{
+    max-height:140px;
+    border: 1px solid rgb(128, 127, 127);
+    display:flex;
+    overflow-x: auto;
+
+  }
+  .wrapper1::-webkit-scrollbar{
+    width: 0;
+  }
+  .wrapper1 .item1{
+    min-width: 110px;
+    height: 140px;
+    line-height: 100px;
+    text-align: center;
+    background-color: rgb(214, 166, 166);
+    margin-right: 2px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   /*
   
   input:nth-of-type(1) {

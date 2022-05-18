@@ -14,8 +14,7 @@
         href="https://unpkg.com/swiper/swiper-bundle.min.css"
       />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    </head>
+     </head>
     <body>
         <script src="./main.js"></script>
         <!------Navbar-------->
@@ -277,12 +276,18 @@
                 <input type="radio" name="position" id="item4"/>
                 <input type="radio" name="position" id="item5" />
               -->
+
+              
               <div class="slide-container">
                 <span  class="slider-span" id="item1" ></span>
                 <span  class="slider-span" id="item2" ></span>
                 <span  class="slider-span" id="item3" ></span>
                 <span  class="slider-span" id="item4" ></span>
                 <span  class="slider-span" id="item5" ></span>
+              </div>
+              <div class="horizontal-scroll">
+                <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"> <i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"> <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
               </div>
               
                 <main id="carousel">
@@ -340,9 +345,20 @@
                       <label for="item5" class="bar"></label>
 
                     </div>
+
+
          </div>
         </section>
+<!--
+        <div class="wrapper1">
+          <div class="item1">img1</div>
+          <div class="item1">img2</div>
+          <div class="item1">img3</div>
+          <div class="item1">img4</div>
+          <div class="item1">img5</div>
 
+        </div>
+-->
 
 
 
