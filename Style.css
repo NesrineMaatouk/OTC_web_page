@@ -49,11 +49,17 @@ label.logo{
 }
 div .fa{
   display: none;
+  color: rgb(7, 7, 7);
+      margin: 10px;
+      font-size: 30px;
+      cursor: pointer;
 }
 
 /*-Mobile*/
 @media(max-width: 700px){
-  
+  div .fa{
+    display: block;
+  }
   .text-box h1{
       font-size: 20px;
       font-weight: 50;
@@ -82,7 +88,7 @@ div .fa{
       transition: 1s;
 
   }
-  div .fa{
+  nav .fa{
       display: block;
       color: rgb(7, 7, 7);
       margin: 10px;
@@ -246,6 +252,13 @@ div .fa{
     padding: 50px;
         
 }
+@media(max-width: 700px){
+  .titre1{
+    padding: 20px;
+    font-size: 25px;
+        
+}
+}
 .section{
     width: 100%;
     height: 100%;
@@ -265,6 +278,15 @@ section .card .image{
     padding: 3px;
     
 }
+@media(max-width: 700px){
+  section .card .image{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding: 1px;
+    
+}
+}
 section .card .image img{
     height: 100%;
     width: 100%;
@@ -278,8 +300,6 @@ section .card .image img{
     border: 2px solid rgb(240, 239, 239);
     border-radius: 20px;
     background: #fff;
-    
-    
         
 
 }
@@ -298,6 +318,15 @@ section .card .image img{
     padding: 30px;
     position: relative;
     z-index: 100;
+}
+@media(max-width: 700px){
+  
+  .name-profession span {
+    font-size: 15px;
+    font-weight: 80;
+    text-align: center;  
+}
+
 }
 
 .name-profession {
@@ -362,6 +391,15 @@ section .card .image img{
     font-size: 25px;
     text-size-adjust: 20px;
 }
+
+@media(max-width: 700px){
+  .titre2{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    text-size-adjust: 20px;
+}
+}
 .parag{
     font-size: 15px;
     
@@ -369,6 +407,16 @@ section .card .image img{
     color: #A0938D;
     padding: 0 70px ;
     line-height: 20px; 
+}
+@media(max-width: 700px){
+  .parag{
+    font-size: 12px;
+    
+    text-align: center;
+    color: #A0938D;
+    padding: 0 20px ;
+    line-height: 20px; 
+}
 }
 
 /**********-------PHOTO*******************/
@@ -585,6 +633,17 @@ input[name='r']{
     color: #A0938D;
     padding: 0 50px 50px  ;
     line-height: 30px; 
+}
+@media(max-width: 700px){
+  .parag2{
+    
+    font-size: 12px;
+    
+    text-align: center;
+    color: #A0938D;
+    padding: 0 20px 30px  ;
+    line-height: 30px; 
+} 
 }
 /*.imgclients{
     width: 100%;
