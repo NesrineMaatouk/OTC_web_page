@@ -437,7 +437,6 @@ main#carousel img{
    
     width: 400px;
     height: 400px;
-    filter: saturate(10%);
     
 }
 main#carousel {
@@ -803,7 +802,8 @@ input[name='r']{
 input[type=radio] {
      cursor: pointer;
      margin-top: 40px;
-     margin-left: 200px;
+     margin-left: 20px;
+     
     
      
   }
