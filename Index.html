@@ -18,30 +18,28 @@
     <body>
         <script src="./main.js"></script>
         <!------Navbar-------->
-        <div>
-        <i class="fa fa-bars" onclick="hideMenu()"></i>
+        <nav>
+          <div>
+           <i class="fa fa-bars" onclick="hideMenu()"></i>
           
-        <nav id ="navmain">
-        <div class="Navbar">
-          
-          <i class="fa fa-times" onclick="hideMenu()"></i>
-            <label class="logo"> OTC </label>
-            
-            <ul id="mainmenu">
-              <li><a href="#" class="">HOME</a></li>
-              <li><a href="#section3" class="">SERVICE</a></li>
-              <li><a href="#section2" class="">PRODUCTS </a></li>
-              <li><a href="#section5" class="">CONTACT US </a></li>
-              <li><a href="#section5" class="">ABOUT US</a></li>
-              <li><a href="#section4" class="">JOIN US</a></li>
-              
-              
+           <nav id ="navmain">
              
-            </ul>
-          
-        </div>
-      </nav>
-    </div>
+             <div class="Navbar">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <label class="logo"> OTC </label>
+               <ul id="mainmenu">
+                 <li><a href="#" class="">HOME</a></li>
+                 <li><a href="#section3" class="">SERVICE</a></li>
+                 <li><a href="#section2" class="">PRODUCTS </a></li>
+                 <li><a href="#section5" class="">CONTACT US </a></li>
+                 <li><a href="#section5" class="">ABOUT US</a></li>
+                 <li><a href="#section4" class="">JOIN US</a></li>            
+               </ul>
+              </div>
+           </nav>
+
+          </div>
+         </nav>
         <!------------Image Slides-------------->
         <section id="section1">
           <div class="headingBack">
@@ -257,8 +255,7 @@
     </script> 
     
          <!---------About--------->
-
-         <section id="section3">
+        <section id="section3">
          <div class="About">
             <h1 class="titre2">About AlOmran</h1>
             <p class="parag">Al-Omran is one of the oldest and most successful brands in the Kingdom of Saudi Arabia that is specialized in providing all types of
@@ -269,15 +266,15 @@
                 </p>
                 
 
-                
-                <input type="radio" name="position" id="item1"  />
+            
+         <!--     <input type="radio" name="position" id="item1"  />
                 <input type="radio" name="position" id="item2"/>
                 <input type="radio" name="position" id="item3" checked/>
                 <input type="radio" name="position" id="item4"/>
                 <input type="radio" name="position" id="item5" />
-              
-
-              
+             
+-->
+          <!--  
               <div class="slide-container">
                 <span  class="slider-span" id="item1" ></span>
                 <span  class="slider-span" id="item2" ></span>
@@ -285,13 +282,12 @@
                 <span  class="slider-span" id="item4" ></span>
                 <span  class="slider-span" id="item5" ></span>
               </div>
-              <!--
               <div class="horizontal-scroll">
                 <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"> <i class="fa fa-chevron-left" aria-hidden="true"></i></button>
                 <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"> <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
               </div>-->
               
-                <main id="carousel">
+     <!--           <main id="carousel">
                   <div class="item ">
                     <img src="./img/istockphoto-1065832096-640x640.jpg">
                     <a href="#item1" class="buttonn" id="button-1"> </a>
@@ -337,7 +333,7 @@
                     
                   
                   </div>
-                  <main>
+                </main>
                     <div class="navigation1">
                       <label for="item1" class="bar"></label>
                       <label for="item2" class="bar"></label>
@@ -348,8 +344,63 @@
                     </div>
 
 
+
+                  -->
+
+
+
+<div class="main_scoll_div">
+  <div>
+    <button class="icon"  onclick="scrollr()"> <i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+  </div>
+  <div class="cover">
+    <div class="scoll_images">
+      <div class="child"><img class="child-img" src="./img/empty-wood-chair-in-living-room.jpg" alt="image"></div>
+      <div class="child">
+        <img class="child-img" src="./img/homebyme-homepage-gallery-9.jpg" alt="image">
+        <div class="texxt">
+          <div class="text">
+            <h1  >Our Mission</h1>
+            <p class="texxtp"> Entertainment has the power to connect and inspire people. This belief fuels Mass Impressions. Our dedicated team has one goal and one goal only: to help our clients reach the widest possible audience and get the most out of what they do</p>
+          </div>
+             </div>
+      </div>
+      <div class="child">
+        <img class="child-img" src="./img/living-room-interior-wall-mockup-in-warm-tones-with-leather-sofa-which-is-behind-the-kitchen-3d-rendering.jpg" alt="image">
+        <div class="texxt">
+        <h1>Our Values</h1>
+        <p class="texxtp">We founded Mass Impressions in 2011 with one guiding principle and it still holds true today: “Never lose
+            sight of the people.”We founded Mass Impressions in 2011 with one guiding principle and it still holds true
+            today: “Never lose sight of the people.”We founded Mass Impressions in 2011 with one guiding principle and
+            it still holds true today: “Never lose sight of the people.”</p>
+        </div>
+      </div>
+      <div class="child">
+        <img  class="child-img" src="./img/istockphoto-1065832096-640x640.jpg" alt="image">
+        <div class="texxt">
+          <h1 >Our vision</h1>
+          <p class="texxtp">We founded Mass Impressions in 2011 with one guiding principle and it still holds true today: “Never lose
+            sight of the people.”We founded Mass Impressions in 2011 with one guiding principle and it still holds true
+            today: “Never lose sight of the people.”We founded Mass Impressions in 2011 with one guiding principle and
+            it still holds true today: “Never lose sight of the people.”</p>
+        </div> 
+      </div>
+      <div class="child"><img class="child-img" src="./img/empty-wood-chair-in-living-room.jpg" alt="image"></div>
+    </div>
+  </div>
+  <div>
+    <button class="icon"  onclick="scrolll()"> <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+  </div>
+</div>
+
+
+
+
          </div>
+
+
         </section>
+
 <!--
         <div class="wrapper1">
           <div class="item1">img1</div>
