@@ -8,6 +8,7 @@ setInterval(function(){
 
 },5000);
 
+
 function hideMenu(){
     
     if ( document.getElementById("navmain").style.display=="none"){
@@ -23,11 +24,11 @@ function hideMenu(){
 
 function scrolll(){
     var left =document.querySelector(".scoll_images");
-    left.scrollBy(350,0)
+    left.scrollBy(250,0)
 }
 function scrollr(){
     var right =document.querySelector(".scoll_images");
-    right.scrollBy(-350,0)
+    right.scrollBy(-250,0)
 }
 /*
 const h=document.querySelector('.h');
