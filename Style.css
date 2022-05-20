@@ -381,7 +381,7 @@ section .card .image img{
   outline: none;
   border: none;
   color: #fff;
-  padding: 8px 20px;
+  padding: 8% 20%;
   border-radius: 20px;
   font-size: 10px;
   transition: all 0.3s ease;
